@@ -1,0 +1,81 @@
+.loose {
+  opacity: 0.3;
+}
+
+.answer-button {
+  width: 40%;
+  height: 3vw;
+  color: wheat;
+  font-size: 1.1vw;
+  font-weight: bold;
+  border-radius: 20px;
+  margin: 3vh 30px;
+  background: linear-gradient(121.83deg, #774cd3 31.32%, #ae2aa9 87.66%);
+}
+
+.answer-button:hover {
+  cursor: pointer;
+}
+
+.chosenBtn {
+  border: 5px solid black;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-500px, 200px, 0) rotate(180deg);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(600px, -150px, 0) rotate(80deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-100px, -150px, 0) rotate(260deg);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(100px, 200px, 0) rotate(180deg);
+  }
+}
+
+.hard-difficulty {
+  animation-name: shake;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+/*   =============================
+				 Media queries
+		 =============================
+*/
+
+@media screen and (max-width: 1000px) {
+  .answer-button {
+    width: 80%;
+    font-size: 1.5vw;
+    margin: 2vh auto;
+    height: 5vh;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .answer-button {
+    height: 6vw;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .answer-button {
+    height: 40px;
+    font-size: 12px;
+    margin: 1vh 0;
+    width: 100%;
+  }
+}

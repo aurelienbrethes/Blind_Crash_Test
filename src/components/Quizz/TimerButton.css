@@ -1,0 +1,18 @@
+#progress-bar {
+  display: flex;
+  width: 90%;
+  margin: 10px auto;
+  height: 20px;
+  background-color: rgb(107, 6, 107);
+  border-radius: 20px;
+}
+
+#progress-bar div {
+  height: 100%;
+  text-align: right;
+  padding: 0 10px;
+  line-height: 22px;
+  background-color: #ea00c3;
+  box-sizing: border-box;
+  border-radius: 20px;
+}

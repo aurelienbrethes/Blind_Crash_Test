@@ -1,0 +1,15 @@
+.stars-container {
+  width: 4vw;
+  background-color: inherit;
+  border: inherit;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.stars-container-yellow {
+  width: 4vw;
+  margin-right: 1vw;
+  border: inherit;
+  cursor: pointer;
+  background-color: blue;
+}
