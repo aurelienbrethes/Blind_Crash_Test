@@ -2,7 +2,7 @@
   "name": "blind-crash-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marie5060.github.io/Blind-Crash-Test",
+  "homepage": "https://aurelienbrethes.github.io/Blind_Crash_Test/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
